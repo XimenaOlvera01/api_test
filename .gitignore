@@ -3,11 +3,13 @@
 # Ignorar entornos virtuales
 lib/
 bin/
-
+scripts/
+include/
 
 # Ignorar archivos específicos de Python
 *.pyc
 *.pyo
 .env
+pyvenv.cfg
 
 
