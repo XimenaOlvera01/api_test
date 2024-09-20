@@ -3,7 +3,7 @@
 # Ignorar entornos virtuales
 lib/
 bin/
-scripts/
+Scripts/
 include/
 
 # Ignorar archivos específicos de Python
