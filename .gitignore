@@ -4,7 +4,7 @@
 lib/
 bin/
 Scripts/
-include/
+Include/
 
 # Ignorar archivos específicos de Python
 *.pyc
