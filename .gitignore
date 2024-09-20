@@ -1,0 +1,19 @@
+# created by virtualenv automatically
+
+# Ignorar entornos virtuales
+lib/
+Scripts/
+
+
+# Ignorar archivos específicos de Python
+*.pyc
+*.pyo
+.env
+
+# Ignorar configuraciones de IDEs
+.vscode/
+.idea/
+
+# Otros archivos que no quieras subir
+*.log
+
