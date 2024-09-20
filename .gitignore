@@ -2,7 +2,7 @@
 
 # Ignorar entornos virtuales
 lib/
-Scripts/
+bin/
 
 
 # Ignorar archivos específicos de Python
@@ -10,10 +10,4 @@ Scripts/
 *.pyo
 .env
 
-# Ignorar configuraciones de IDEs
-.vscode/
-.idea/
-
-# Otros archivos que no quieras subir
-*.log
 
