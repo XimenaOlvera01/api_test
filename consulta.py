@@ -10,7 +10,7 @@ def get_estudiantes():
         data = response.json()
         print("\nLista de estudiantes:")
         for estudiante in data:
-            print(f"Datos: {estudiante['no_control']}, Nombre: {estudiante['nombre']} {estudiante['ap_paterno']} {estudiante['ap_materno']}, Semestre: {estudiante['semestre']}")
+            print(f"No Control: {estudiante['no_control']}, Nombre: {estudiante['nombre']} {estudiante['ap_paterno']} {estudiante['ap_materno']}, Semestre: {estudiante['semestre']}")
     else:
         print(f"Error al hacer GET. Código de estado: {response.status_code}")
 
