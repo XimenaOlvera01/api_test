@@ -1,7 +1,7 @@
 import requests
 
 # URL de la API
-url = "https://api-test-2-vnx1.onrender.com//estudiantes"
+url = "http://157.245.141.164:8529/_db/computo_nube/cetech/alumnos"
 
 # Función para realizar la solicitud GET
 def get_estudiantes():
